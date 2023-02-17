@@ -1,0 +1,133 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		},
+		{
+			"path": "pages/sixLevels/index",
+			"style": {
+				"navigationBarTitleText": "六级"
+			}
+		}, {
+			"path": "pages/fourLevels/index",
+			"style": {
+				"navigationBarTitleText": "四级"
+			}
+		}, {
+			"path": "pages/set/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/auth/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+
+		{
+			"path": "pages/cetFourTestA/index",
+			"style": {
+				"navigationBarTitleText": "A"
+			}
+		}, {
+			"path": "pages/cetFourTestB/index",
+			"style": {
+				"navigationBarTitleText": "B"
+			}
+		}, {
+			"path": "pages/cetFourTestC/index",
+			"style": {
+				"navigationBarTitleText": "C"
+			}
+		}, {
+			"path": "pages/cetFourTestAll/index",
+			"style": {
+				"navigationBarTitleText": "All"
+			}
+		},
+		{
+			"path": "pages/cetSixTestA/index",
+			"style": {
+				"navigationBarTitleText": "A"
+			}
+		}, {
+			"path": "pages/cetSixTestB/index",
+			"style": {
+				"navigationBarTitleText": "B"
+			}
+		}, {
+			"path": "pages/cetSixTestC/index",
+			"style": {
+				"navigationBarTitleText": "C"
+			}
+		}, {
+			"path": "pages/cetSixTestAll/index",
+			"style": {
+				"navigationBarTitleText": "All"
+			}
+		},
+		{
+			"path": "pages/individuation/index",
+			"style": {
+				"navigationBarTitleText": "个性化"
+			}
+		},
+		{
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "系统信息"
+			}
+		}, {
+			"path": "pages/feed/index",
+			"style": {
+				"navigationBarTitleText": "反馈"
+			}
+		},
+		{
+			"path": "pages/withme/index",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ededed",
+		"backgroundColor": "#F8F8F8"
+		/* 		"enablePullDownRefresh": true */
+	},
+
+	"tabBar": {
+		"list": [{
+				"text": "四级",
+				"pagePath": "pages/fourLevels/index",
+				"iconPath": "static/tabBar-icon/four.png",
+				"selectedIconPath": "static/tabBar-icon/selected/four.png"
+			},
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar-icon/index.png",
+				"selectedIconPath": "static/tabBar-icon/selected/index.png"
+			},
+			{
+				"text": "六级",
+				"pagePath": "pages/sixLevels/index",
+				"iconPath": "static/tabBar-icon/six.png",
+				"selectedIconPath": "static/tabBar-icon/selected/six.png"
+			}
+		]
+	},
+	"usingComponents": {},
+	"lazyCodeLoading": "requiredComponents",
+	"app-plus": {
+		"softinputMode": "adjustResize"
+	}
+
+}

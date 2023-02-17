@@ -1,0 +1,91 @@
+/* 三角形 */
+.trangle {
+	width: 0px;
+	height: 0px;
+	right: 0;
+	position: fixed;
+	border: 40rpx solid #000;
+	border-top-color: #000;
+	opacity: 0.3;
+	transform: rotate(90deg);
+	bottom: 3%;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+
+}
+
+/* 题号 */
+.text {
+	margin-top: 0rpx;
+	margin-bottom: 2%;
+	font-size: 1rem;
+	color: #000000;
+	font-weight: 500;
+}
+
+/* 每道题最大区域 */
+.uni-px-5 {
+	padding-left: 6%;
+	padding-right: 4%;
+}
+
+/* 选项格式 */
+/deep/ .checklist-text {
+	color: #000000 !important;
+	line-height: 1.5 !important;
+	opacity: 1 !important;
+}
+
+/deep/.checklist-box,
+.uni-label-pointer {
+	opacity: 1 !important;
+}
+
+/deep/ .uni-data-checklist .checklist-group {
+	flex-direction: column !important;
+}
+
+/deep/ .uni-section-header {
+	display: none !important;
+}
+
+/* 题目问题格式 */
+.questionsTitle {
+	width: 95%;
+	margin: auto;
+	margin-bottom: 3%;
+	font-weight: bolder;
+	line-height: 1.5;
+	font-size: 0.9rem;
+}
+
+/* 提交按钮 */
+.btn-submit {
+	width: 30%;
+	border-radius: 3%;
+	font-size: 0.9rem;
+	text-decoration: none;
+	background-color: rgba(119, 175, 119, 1);
+	color: #ffffff;
+}
+
+/* sectionabcall格式 */
+.part {
+	width: 95%;
+	margin: 10% auto;
+	margin-bottom: 4%;
+}
+
+.part-title {
+	font-size: 1.3rem;
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+
+.part-subtitle {
+	margin-bottom: 2%;
+	line-height: 1.7;
+	font-size: 1rem;
+	font-weight: normal;
+}
