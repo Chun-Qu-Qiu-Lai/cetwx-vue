@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sixLevels/index",
+    "pages/fourLevels/index",
+    "pages/set/index",
+    "pages/auth/index",
+    "pages/cetFourTestA/index",
+    "pages/cetFourTestB/index",
+    "pages/cetFourTestC/index",
+    "pages/cetFourTestAll/index",
+    "pages/cetSixTestA/index",
+    "pages/cetSixTestB/index",
+    "pages/cetSixTestC/index",
+    "pages/cetSixTestAll/index",
+    "pages/individuation/index",
+    "pages/message/index",
+    "pages/feed/index",
+    "pages/withme/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ededed",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "四级",
+        "pagePath": "pages/fourLevels/index",
+        "iconPath": "static/tabBar-icon/four.png",
+        "selectedIconPath": "static/tabBar-icon/selected/four.png"
+      },
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar-icon/index.png",
+        "selectedIconPath": "static/tabBar-icon/selected/index.png"
+      },
+      {
+        "text": "六级",
+        "pagePath": "pages/sixLevels/index",
+        "iconPath": "static/tabBar-icon/six.png",
+        "selectedIconPath": "static/tabBar-icon/selected/six.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
